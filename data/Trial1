@@ -1,0 +1,165 @@
+{"type":"singles",
+"values":
+    [
+        {
+            "loc": {
+                "lat": 49.94225161222,
+                "lng": -97.16558575630188
+            },
+            "type": "4",
+            "text": "Tree Down on Fife"
+        },
+        {
+            "loc": {
+                "lat": 49.94275564852737,
+                "lng": -97.16517806053162
+            },
+            "type": "4",
+            "text": "Fallen Tree"
+        },
+        {
+            "loc": {
+                "lat": 49.94808568232102,
+                "lng": -97.08420753479004
+            },
+            "type": "3",
+            "text": "Litter!"
+        },
+        {
+            "loc": {
+                "lat": 49.85826639327568,
+                "lng": -97.24664211273193
+            },
+            "type": "3",
+            "text": "Litter in the park"
+        },
+        {
+            "loc": {
+                "lat": 49.858224893221816,
+                "lng": -97.2464919090271
+            },
+            "type": "3",
+            "text": "Litter near the entrance of the park"
+        },
+        {
+            "loc": {
+                "lat": 49.858224893221816,
+                "lng": -97.24666357040405
+            },
+            "type": "3",
+            "text": "Flipped over trashcan near the entrance of the forrest "
+        },
+        {
+            "loc": {
+                "lat": 49.89292032189055,
+                "lng": -97.14166045188904
+            },
+            "type": "1",
+            "text": "Graffiti on the fence "
+        },
+        {
+            "loc": {
+                "lat": 49.8928304695662,
+                "lng": -97.14159607887268
+            },
+            "type": "1",
+            "text": "The Fence on the west side of the road"
+        },
+        {
+            "loc": {
+                "lat": 49.893224436208676,
+                "lng": -97.14183211326599
+            },
+            "type": "1",
+            "text": "Big Smiley Face Graffiti on the west side of the road"
+        },
+        {
+            "loc": {
+                "lat": 49.841981802497074,
+                "lng": -97.15526461601257
+            },
+            "type": "2",
+            "text": "Pot Hole on river Wood Loop"
+        },
+        {
+            "loc": {
+                "lat": 49.85294026180056,
+                "lng": -97.11160898208618
+            },
+            "type": "2",
+            "text": "Huge Hole @ yield "
+        },
+        {
+            "loc": {
+                "lat": 49.88163217821805,
+                "lng": -97.24821925163269
+            },
+            "type": "3",
+            "text": "Garbage and Litter all over Palliser Ave"
+        },
+        {
+            "loc": {
+                "lat": 49.88162526489017,
+                "lng": -97.24668502807617
+            },
+            "type": "3",
+            "text": "Trash Flying around "
+        },
+        {
+            "loc": {
+                "lat": 49.881148242876655,
+                "lng": -97.24831581115723
+            },
+            "type": "3",
+            "text": "Can someone pick up the trash here. Darn Kids!"
+        },
+        {
+            "loc": {
+                "lat": 49.83030111390304,
+                "lng": -97.19401717185974
+            },
+            "type": "4",
+            "text": "Tree Fallen on Lindenshore"
+        },
+        {
+            "loc": {
+                "lat": 49.83086168532753,
+                "lng": -97.19390988349915
+            },
+            "type": "4",
+            "text": "OMG there is a tree on the road!"
+        },
+        {
+            "loc": {
+                "lat": 49.83069559076796,
+                "lng": -97.19365239143372
+            },
+            "type": "4",
+            "text": "Hi can you move the fallen tree on lindenshore Dr. Thanks!"
+        },
+        {
+            "loc": {
+                "lat": 49.92979057258873,
+                "lng": -97.07059800624847
+            },
+            "type": "3",
+            "text": "Trash On the green way"
+        },
+        {
+            "loc": {
+                "lat": 49.93006337575675,
+                "lng": -97.0703136920929
+            },
+            "type": "3",
+            "text": "Garbage Cans are overflowing!"
+        },
+        {
+            "loc": {
+                "lat": 49.9117648767756,
+                "lng": -97.20747649669647
+            },
+            "type": "2",
+            "text": "Car trap on Dublin. This pot hole is huge!"
+        }
+    ]
+}

@@ -1,0 +1,177 @@
+{"type":"groups",
+"values":
+[
+    [
+        {
+            "loc": {
+                "lat": 49.87783661230295,
+                "lng": -97.15868711471558
+            },
+            "type": "2",
+            "text": "Pot Hole on west Gate"
+        },
+        {
+            "loc": {
+                "lat": 49.87762919573155,
+                "lng": -97.15851545333862
+            },
+            "type": "2",
+            "text": "Pot Hole!"
+        },
+        {
+            "loc": {
+                "lat": 49.8781269940061,
+                "lng": -97.1561336517334
+            },
+            "type": "2",
+            "text": "East Gate Pot Hole!"
+        },
+        {
+            "loc": {
+                "lat": 49.877670679117095,
+                "lng": -97.15531826019287
+            },
+            "type": "2",
+            "text": "Fix East Gate"
+        },
+        {
+            "loc": {
+                "lat": 49.87739412254016,
+                "lng": -97.15881586074829
+            },
+            "type": "2",
+            "text": "West Gate is full of holes"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.9414990002466,
+                "lng": -97.10796117782593
+            },
+            "type": "4",
+            "text": "Tree fell on the sidewalk and road"
+        },
+        {
+            "loc": {
+                "lat": 49.9412366189965,
+                "lng": -97.10783243179321
+            },
+            "type": "4",
+            "text": "Tree Fell on Newton"
+        },
+        {
+            "loc": {
+                "lat": 49.94352895425363,
+                "lng": -97.10304737091064
+            },
+            "type": "4",
+            "text": "Tree fell in the park!"
+        },
+        {
+            "loc": {
+                "lat": 49.94350133640574,
+                "lng": -97.10384130477905
+            },
+            "type": "4",
+            "text": "Tree fell on the park road"
+        },
+        {
+            "loc": {
+                "lat": 49.94350133640574,
+                "lng": -97.10336923599243
+            },
+            "type": "4",
+            "text": "A big oak Tree Fell across the road!"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.94580737216961,
+                "lng": -97.18952178955078
+            },
+            "type": "3",
+            "text": "There is so much garbage here!\n"
+        },
+        {
+            "loc": {
+                "lat": 49.946801557124324,
+                "lng": -97.18254804611206
+            },
+            "type": "3",
+            "text": "Garbage on Mandalay"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.80315061009804,
+                "lng": -97.09536552429199
+            },
+            "type": "1",
+            "text": "Someone is making a mess with spraypaint "
+        },
+        {
+            "loc": {
+                "lat": 49.802762833235846,
+                "lng": -97.0957088470459
+            },
+            "type": "1",
+            "text": "What a mess! Someone is spray painting the trees."
+        },
+        {
+            "loc": {
+                "lat": 49.81134859386212,
+                "lng": -97.09416389465332
+            },
+            "type": "1",
+            "text": "Someone is flipping the bus benches! "
+        },
+        {
+            "loc": {
+                "lat": 49.81137628740004,
+                "lng": -97.09446430206299
+            },
+            "type": "1",
+            "text": "Bus bench and mail box flipped "
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.834702462910954,
+                "lng": -97.19434976577759
+            },
+            "type": "1",
+            "text": "Pot Holes on Marksbridge "
+        },
+        {
+            "loc": {
+                "lat": 49.83463326240965,
+                "lng": -97.19555139541626
+            },
+            "type": "1",
+            "text": "Come on fix the roads"
+        },
+        {
+            "loc": {
+                "lat": 49.832211182479384,
+                "lng": -97.19814777374268
+            },
+            "type": "1",
+            "text": "Pot holes on Lindenwood "
+        },
+        {
+            "loc": {
+                "lat": 49.83204509255422,
+                "lng": -97.19791173934937
+            },
+            "type": "1",
+            "text": "These Potholes are a pain"
+        }
+    ]
+]
+
+}
+

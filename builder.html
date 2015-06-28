@@ -1,0 +1,99 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <script type="text/javascript" src="core.js"></script>  
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+      <style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+      #map-canvas { height: 80%;}
+      input#latLong {
+        width: 500px;
+      }
+
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-aVoI8ARmx0yQaU3OtEBpknRctill1SU">
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+      var output = [];
+
+
+      function initialize() {
+        var mapOptions = {
+          center: { lat: 49.893428, lng: -97.137462},
+          zoom: 12
+        };
+        map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+
+        google.maps.event.addListener(map, 'click', function(event) {
+          
+            var latLong = { lat: event.latLng.k, lng: event.latLng.D};
+            $("#latLong").val(JSON.stringify(latLong));
+        });
+
+
+        $("#add").click(function (argument) {
+          var strLatLng = $("#latLong").val();
+          var latLng = JSON.parse(strLatLng);
+          var gLatlng = new google.maps.LatLng(latLng.lat,latLng.lng);
+          var marker = new google.maps.Marker({
+              position: gLatlng,
+              map: map,
+              title:$("#what").val()
+          });
+
+          var infowindow = new google.maps.InfoWindow({
+              content: $("#what").val()
+          });
+
+          google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map,marker);
+          });
+
+          var currEntry = {loc: latLng, type:$('#workType').find(":selected").val(), text:$("#what").val()}
+          output.push(currEntry);
+          $("#finalOut").html(JSON.stringify(output));
+
+
+        });
+
+      }
+
+
+      
+      
+
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    </head>
+
+    <body>
+      
+
+      <div id="map-canvas"></div>
+      <div id="workPanel">
+        LOC:<input id="latLong"> </input><BR>
+        TYPE:<select id="workType">
+                <option value="1">Vandalism</option>
+                <option value="2">Pot Holes</option>
+                <option value="3">Litter</option>
+                <option value="4">Fallen Tree</option>
+              </select>
+<BR>
+        What:<textarea id="what" style="vertical-align: top;"rows="4" cols="50"></textarea><BR>
+        <button id="add">Add</button>
+
+        <div id="finalOut">
+
+        </div>
+      </div>
+
+
+
+    </body>
+  </html>

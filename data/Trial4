@@ -1,0 +1,185 @@
+{"type":"groups",
+"values":
+[
+    [
+        {
+            "loc": {
+                "lat": 49.810850107469676,
+                "lng": -97.1356201171875
+            },
+            "type": "2",
+            "text": "Big Pot Hole on stifton"
+        },
+        {
+            "loc": {
+                "lat": 49.810,
+                "lng": -97.135
+            },
+            "type": "2",
+            "text": "Wow what a pothole ! I hope you fix it soon"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.80254124506291,
+                "lng": -97.15664863586426
+            },
+            "type": "2",
+            "text": "Pot Hole near University"
+        },
+        {
+            "loc": {
+                "lat": 49.802098065674514,
+                "lng": -97.15596199035645
+            },
+            "type": "2",
+            "text": "Pot Hole by Uni"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.868806252666026,
+                "lng": -97.19068050384521
+            },
+            "type": "4",
+            "text": "A tree Fell Across the sidewalk here!"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.87731115525822,
+                "lng": -97.32049942016602
+            },
+            "type": "3",
+            "text": "There are piles of lost golf balls on my lawn. Can you send someone to return them to the golf course."
+        },
+        {
+            "loc": {
+                "lat": 49.87685483265925,
+                "lng": -97.32064962387085
+            },
+            "type": "3",
+            "text": "The road is littered in golf balls"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.896832191660216,
+                "lng": -97.31526374816895
+            },
+            "type": "1",
+            "text": "Someone Wrote words on the road!"
+        },
+        {
+            "loc": {
+                "lat": 49.89662485669816,
+                "lng": -97.31519937515259
+            },
+            "type": "1",
+            "text": "Can someone come clean up the spray paint on the road here?"
+        },
+        {
+            "loc": {
+                "lat": 49.89782738707702,
+                "lng": -97.31504917144775
+            },
+            "type": "1",
+            "text": "Cleanup Needed"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.92431000971394,
+                "lng": -97.16408371925354
+            },
+            "type": "3",
+            "text": "Could someone send a cleanup crew for the mess here?"
+        },
+        {
+            "loc": {
+                "lat": 49.924268566411044,
+                "lng": -97.16487765312195
+            },
+            "type": "3",
+            "text": "litter "
+        },
+        {
+            "loc": {
+                "lat": 49.924379081806244,
+                "lng": -97.16514587402344
+            },
+            "type": "3",
+            "text": "Could someone come clean up the mess here?"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.87703459662212,
+                "lng": -97.12731599807739
+            },
+            "type": "1",
+            "text": "I can't clean the spray paint off my fence can you help?"
+        },
+        {
+            "loc": {
+                "lat": 49.87708990847605,
+                "lng": -97.12770223617554
+            },
+            "type": "1",
+            "text": "Someone tagged a fence here."
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.85881972392118,
+                "lng": -97.16563940048218
+            },
+            "type": "1",
+            "text": "Graffiti on the mall"
+        },
+        {
+            "loc": {
+                "lat": 49.85764388872524,
+                "lng": -97.16626167297363
+            },
+            "type": "1",
+            "text": "Someone Tagged the mall"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.812096313824334,
+                "lng": -97.0951509475708
+            },
+            "type": "4",
+            "text": "A Tree fell across the road here!"
+        },
+        {
+            "loc": {
+                "lat": 49.8120,
+                "lng": -97.0951
+            },
+            "type": "4",
+            "text": "Tree Down On the road!"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.94212042382301,
+                "lng": -97.06287860870361
+            },
+            "type": "2",
+            "text": "Pot Hole on Chief Peguis Trail"
+        }
+    ]
+]
+}

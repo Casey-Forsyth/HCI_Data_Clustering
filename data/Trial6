@@ -1,0 +1,181 @@
+{"type":"groups",
+"values":
+[
+    [
+        {
+            "loc": {
+                "lat": 49.959392790500694,
+                "lng": -97.05878019332886
+            },
+            "type": "2",
+            "text": "Pot Hole in Rothesay St"
+        },
+        {
+            "loc": {
+                "lat": 49.95958605132177,
+                "lng": -97.05845832824707
+            },
+            "type": "2",
+            "text": "Fix the pot holes"
+        },
+        {
+            "loc": {
+                "lat": 49.959986374840526,
+                "lng": -97.05843687057495
+            },
+            "type": "2",
+            "text": "HOLES AS BIG AS MY CAR"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.83403813401088,
+                "lng": -97.11386203765869
+            },
+            "type": "1",
+            "text": "Someone is writing on the walls"
+        },
+        {
+            "loc": {
+                "lat": 49.83401045344199,
+                "lng": -97.11381912231445
+            },
+            "type": "1",
+            "text": "The Fence here has a big tag!"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.864933605691974,
+                "lng": -97.22200870513916
+            },
+            "type": "4",
+            "text": "tree Fallen"
+        },
+        {
+            "loc": {
+                "lat": 49.86572199113784,
+                "lng": -97.22177267074585
+            },
+            "type": "4",
+            "text": "Can you remove the fallen tree"
+        },
+        {
+            "loc": {
+                "lat": 49.86696678406608,
+                "lng": -97.22342491149902
+            },
+            "type": "4",
+            "text": "Tree On the road"
+        },
+        {
+            "loc": {
+                "lat": 49.866925291485295,
+                "lng": -97.22449779510498
+            },
+            "type": "4",
+            "text": "Can you please remove this?"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.829263001516225,
+                "lng": -97.20999240875244
+            },
+            "type": "3",
+            "text": "Litter all over the place"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.88292495312762,
+                "lng": -97.09527969360352
+            },
+            "type": "2",
+            "text": "Pot holes on Charlotte"
+        },
+        {
+            "loc": {
+                "lat": 49.88253781560936,
+                "lng": -97.09583759307861
+            },
+            "type": "2",
+            "text": "Pot hole"
+        },
+        {
+            "loc": {
+                "lat": 49.88223781560936,
+                "lng": -97.09583759307861
+            },
+            "type": "2",
+            "text": "Pot holes all over the place"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.94816852793231,
+                "lng": -97.18308448791504
+            },
+            "type": "4",
+            "text": "This tree fell over!"
+        },
+        {
+            "loc": {
+                "lat": 49.947864759994275,
+                "lng": -97.1824836730957
+            },
+            "type": "4",
+            "text": "Can you move this tree!"
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.92358474676943,
+                "lng": -97.14398860931396
+            },
+            "type": "1",
+            "text": "Grafiti Here"
+        },
+        {
+            "loc": {
+                "lat": 49.92338474676943,
+                "lng": -97.14398860931396
+            },
+            "type": "1",
+            "text": "Can you remove the spray paint? "
+        },
+        {
+            "loc": {
+                "lat": 49.92445506099345,
+                "lng": -97.14628458023071
+            },
+            "type": "1",
+            "text": "Someone keeps flipping the bus bench "
+        }
+    ],
+    [
+        {
+            "loc": {
+                "lat": 49.82769887011224,
+                "lng": -97.10681319236755
+            },
+            "type": "1",
+            "text": "Graffiti All over!"
+        },
+        {
+            "loc": {
+                "lat": 49.82779576467762,
+                "lng": -97.10636258125305
+            },
+            "type": "1",
+            "text": "Can you remove the spray paint"
+        }
+    ]
+]
+}

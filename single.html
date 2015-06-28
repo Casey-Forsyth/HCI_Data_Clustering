@@ -2,6 +2,7 @@
   <html>
     <head>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+      <script type="text/javascript" src="core.js"></script>
 
   
       <!--Let browser know website is optimized for mobile-->
@@ -31,90 +32,25 @@
     <div class="nav-wrapper">
       <a href="#" class="brand-logo center">Single</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/">Combined</a></li>
-        <li><a href="/single.html">Single</a></li>
+        <li><a href="index.html">Combined</a></li>
+        <li><a href="single.html">Single</a></li>
       </ul>
     </div>
   </nav>
 
 
-
-<div class="row issueCard">
-
-        <div class="col m8 offset-m2">
-          <div class="card">
-            <div class="card-content">
-              <div class="row" style="margin-bottom:0px;">
-              	<div class="col m2">
-					<img src="img/icon1.png" class="z-depth-1 	circle responsive-img" style="width: 100%; Max-height:70px;Max-width:70px"\>
-              	</div>
-
-              	<span class="col m6">
-              		<span class="card-title black-text">Card Title</span><BR>
-              		506 Waverley St, Winnipeg MB
-              	</span>
-
-<!--               	<span class="col m3 badge" style="margin-top: 14px;">5 Connected</span>
- -->			<div class="col m2 offset-m2 ">
- 					<a class="btn-floating" style="float: right;">
-	 					<i class="medium showHideButton mdi-navigation-expand-more"></i> 
-	 				</a>
-	 			</div>
-
-              </div>
-              <div class="hideShowDiv">
-              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit. Donec placerat viverra mollis. Maecenas ultrices eros nec eleifend fermentum. Aliquam elementum ipsum at consectetur placerat. Aenean ante neque, ornare et elit eget, venenatis tincidunt ante. Curabitur egestas consectetur mauris, a porta libero venenatis eu. Nullam tempus feugiat dignissim. Vestibulum pulvinar ac lacus non lobortis. Nullam at est vitae lacus pellentesque rutrum sed vel leo.</p>
-              	<h5>Where is it?</h5>
-				<p>Etiam convallis sit amet dolor mollis suscipit. Proin vitae sollicitudin ipsum, id finibus quam. Proin ut quam ac diam mattis feugiat. Phasellus turpis massa, luctus id tortor quis, lobortis maximus ipsum. Praesent rutrum leo neque, eu laoreet magna consequat facilisis. Mauris ac risus vel mi efficitur ornare id id eros. Curabitur rhoncus sapien eget velit dapibus, quis ornare diam facilisis.</p>
+<div id="cardHolder">
 
 
-            
-              	<img class="responsive-img" src="img/staticmap1.png" alt="Google Map of Winnipeg MB">
-          	  </div>
-          	</div>
-          </div>
-      	</div>
-    </div>
-
-<div class="row issueCard">
-
-        <div class="col m8 offset-m2">
-          <div class="card">
-            <div class="card-content">
-              <div class="row" style="margin-bottom:0px;">
-              	<div class="col m2">
-					<img src="img/icon2.png" class="z-depth-1 	circle responsive-img" style="width: 100%; Max-height:70px;Max-width:70px"\>
-              	</div>
-
-              	<span class="col m6">
-              		<span class="card-title black-text">Card Title</span><BR>
-              		506 Waverley St, Winnipeg MB
-              	</span>
-
-<!--               	<span class="col m3 badge" style="margin-top: 14px;">5 Connected</span>
- -->			<div class="col m2 offset-m2 ">
- 					<a class="btn-floating" style="float: right;">
-	 					<i class="medium showHideButton mdi-navigation-expand-more"></i> 
-	 				</a>
-	 			</div>
-
-              </div>
-              <div class="hideShowDiv">
-              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit. Donec placerat viverra mollis. Maecenas ultrices eros nec eleifend fermentum. Aliquam elementum ipsum at consectetur placerat. Aenean ante neque, ornare et elit eget, venenatis tincidunt ante. Curabitur egestas consectetur mauris, a porta libero venenatis eu. Nullam tempus feugiat dignissim. Vestibulum pulvinar ac lacus non lobortis. Nullam at est vitae lacus pellentesque rutrum sed vel leo.</p>
-              	<h5>Where is it?</h5>
-				<p>Etiam convallis sit amet dolor mollis suscipit. Proin vitae sollicitudin ipsum, id finibus quam. Proin ut quam ac diam mattis feugiat. Phasellus turpis massa, luctus id tortor quis, lobortis maximus ipsum. Praesent rutrum leo neque, eu laoreet magna consequat facilisis. Mauris ac risus vel mi efficitur ornare id id eros. Curabitur rhoncus sapien eget velit dapibus, quis ornare diam facilisis.</p>
-
-
-            
-              	<img class="responsive-img" src="img/staticmap1.png" alt="Google Map of Winnipeg MB">
-          	  </div>
-          	</div>
-          </div>
-      	</div>
-    </div>
+</div>
 
 
 <script type="text/javascript">
+
+$("#cardHolder").append(buildCardForSingle("title", "description","whereIsIt", "1" ,1));
+$("#cardHolder").append(buildCardForSingle("title", "description","whereIsIt", "2" ,2));
+$("#cardHolder").append(buildCardForSingle("title", "description","whereIsIt", "1" ,3));
+$("#cardHolder").append(buildCardForSingle("title", "description","whereIsIt", "2" ,4));
 
 
 $(".showHideButton").click(function(event){

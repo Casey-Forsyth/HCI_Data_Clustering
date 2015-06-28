@@ -1,0 +1,165 @@
+{"type":"singles",
+"values":
+[
+    {
+        "loc": {
+            "lat": 49.94231375396755,
+            "lng": -97.1656608581543
+        },
+        "type": "4",
+        "text": "Fallen Tree"
+    },
+    {
+        "loc": {
+            "lat": 49.94194090227984,
+            "lng": -97.16572523117065
+        },
+        "type": "4",
+        "text": "Fallen Tree on fife"
+    },
+    {
+        "loc": {
+            "lat": 49.94189947413643,
+            "lng": -97.1660041809082
+        },
+        "type": "4",
+        "text": "Wow a tree fell!"
+    },
+    {
+        "loc": {
+            "lat": 49.88631227398738,
+            "lng": -97.22403645515442
+        },
+        "type": "1",
+        "text": "fence Taged"
+    },
+    {
+        "loc": {
+            "lat": 49.886782332386844,
+            "lng": -97.22393989562988
+        },
+        "type": "1",
+        "text": "Spray Paint on fence"
+    },
+    {
+        "loc": {
+            "lat": 49.86833601923774,
+            "lng": -97.22353219985962
+        },
+        "type": "2",
+        "text": "Pot hole on west Side Dr"
+    },
+    {
+        "loc": {
+            "lat": 49.867907273004455,
+            "lng": -97.22275972366333
+        },
+        "type": "2",
+        "text": "Pot hole on west Side Dr"
+    },
+    {
+        "loc": {
+            "lat": 49.86686996798878,
+            "lng": -97.22336053848267
+        },
+        "type": "2",
+        "text": "Fix the roads"
+    },
+    {
+        "loc": {
+            "lat": 49.867049769120776,
+            "lng": -97.22447633743286
+        },
+        "type": "2",
+        "text": "Why the road broken?"
+    },
+    {
+        "loc": {
+            "lat": 49.86695295320978,
+            "lng": -97.22439050674438
+        },
+        "type": "2",
+        "text": "Please fix the pothole On corydon and Kelvin"
+    },
+    {
+        "loc": {
+            "lat": 49.85561723502355,
+            "lng": -97.07893967628479
+        },
+        "type": "3",
+        "text": "Trash at KFC"
+    },
+    {
+        "loc": {
+            "lat": 49.85567948845039,
+            "lng": -97.07361817359924
+        },
+        "type": "3",
+        "text": "Burger king Trash"
+    },
+    {
+        "loc": {
+            "lat": 49.85567257140691,
+            "lng": -97.07388639450073
+        },
+        "type": "3",
+        "text": "So much burger king trash"
+    },
+    {
+        "loc": {
+            "lat": 49.85563798617475,
+            "lng": -97.0792829990387
+        },
+        "type": "3",
+        "text": "KFC trash piled everywhere"
+    },
+    {
+        "loc": {
+            "lat": 49.86443567141256,
+            "lng": -97.17606782913208
+        },
+        "type": "4",
+        "text": "Tree Fallen on oxford"
+    },
+    {
+        "loc": {
+            "lat": 49.94805806708558,
+            "lng": -97.08440065383911
+        },
+        "type": "2",
+        "text": "Pot hole in yield "
+    },
+    {
+        "loc": {
+            "lat": 49.80864839782304,
+            "lng": -97.13482618331909
+        },
+        "type": "4",
+        "text": "Tree Fell on path!"
+    },
+    {
+        "loc": {
+            "lat": 49.806446588024386,
+            "lng": -97.14199304580688
+        },
+        "type": "4",
+        "text": "Tree Fell on road!"
+    },
+    {
+        "loc": {
+            "lat": 49.806321954286105,
+            "lng": -97.14237928390503
+        },
+        "type": "4",
+        "text": "On Chancellor Matherson"
+    },
+    {
+        "loc": {
+            "lat": 49.863910068549494,
+            "lng": -97.17613220214844
+        },
+        "type": "4",
+        "text": "Holly Lumberjacks Batman a tree fell!"
+    }
+]
+}

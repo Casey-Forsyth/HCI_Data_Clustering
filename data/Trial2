@@ -1,0 +1,165 @@
+{"type":"singles",
+"values":
+[
+    {
+        "loc": {
+            "lat": 49.904136724839624,
+            "lng": -97.167409658432
+        },
+        "type": "4",
+        "text": "Fallen Tree on Notre Dame"
+    },
+    {
+        "loc": {
+            "lat": 49.904236921247744,
+            "lng": -97.16776371002197
+        },
+        "type": "4",
+        "text": "Fallen Tree on Notre Dame"
+    },
+    {
+        "loc": {
+            "lat": 49.904737900166616,
+            "lng": -97.16763496398926
+        },
+        "type": "4",
+        "text": "Fallen Tree on Arlington St"
+    },
+    {
+        "loc": {
+            "lat": 49.90481218280479,
+            "lng": -97.16746062040329
+        },
+        "type": "4",
+        "text": "Fallen Tree "
+    },
+    {
+        "loc": {
+            "lat": 49.90485018783126,
+            "lng": -97.16758668422699
+        },
+        "type": "4",
+        "text": "Fallen Tree @ Winnipeg and Arlington"
+    },
+    {
+        "loc": {
+            "lat": 49.931855550580046,
+            "lng": -97.0955640077591
+        },
+        "type": "2",
+        "text": "Pot Hole on Leighton Ave"
+    },
+    {
+        "loc": {
+            "lat": 49.93199712609763,
+            "lng": -97.09582149982452
+        },
+        "type": "2",
+        "text": "Pot hole by school"
+    },
+    {
+        "loc": {
+            "lat": 49.931099323088574,
+            "lng": -97.09547817707062
+        },
+        "type": "2",
+        "text": "Pot Hole by Roberta and Brazier St"
+    },
+    {
+        "loc": {
+            "lat": 49.93114076051869,
+            "lng": -97.09563374519348
+        },
+        "type": "2",
+        "text": "Huge Pot Hole"
+    },
+    {
+        "loc": {
+            "lat": 49.93119946348369,
+            "lng": -97.09539234638214
+        },
+        "type": "2",
+        "text": "This pot hole is bigger than my dog!"
+    },
+    {
+        "loc": {
+            "lat": 49.88300791076334,
+            "lng": -97.18231737613678
+        },
+        "type": "2",
+        "text": "Pot Hole on Bass wood"
+    },
+    {
+        "loc": {
+            "lat": 49.88330863099783,
+            "lng": -97.18229055404663
+        },
+        "type": "2",
+        "text": "Pot Hole !"
+    },
+    {
+        "loc": {
+            "lat": 49.88311160760753,
+            "lng": -97.18107283115387
+        },
+        "type": "2",
+        "text": "Sprague St Pot Hole!"
+    },
+    {
+        "loc": {
+            "lat": 49.85790672495809,
+            "lng": -97.10017740726471
+        },
+        "type": "3",
+        "text": "Litter In the Park!"
+    },
+    {
+        "loc": {
+            "lat": 49.856156762058475,
+            "lng": -97.10393249988556
+        },
+        "type": "3",
+        "text": "Litter near the road"
+    },
+    {
+        "loc": {
+            "lat": 49.856063382810426,
+            "lng": -97.10346579551697
+        },
+        "type": "3",
+        "text": "Litter!"
+    },
+    {
+        "loc": {
+            "lat": 49.86445296088325,
+            "lng": -97.20516443252563
+        },
+        "type": "4",
+        "text": "Tree Fallen In Back Lane"
+    },
+    {
+        "loc": {
+            "lat": 49.86488519564004,
+            "lng": -97.20515370368958
+        },
+        "type": "4",
+        "text": "I can't leave my garage this tree has fallen on the lane"
+    },
+    {
+        "loc": {
+            "lat": 49.86478491752101,
+            "lng": -97.20755159854889
+        },
+        "type": "4",
+        "text": "Tree Blocking West bound Corydon"
+    },
+    {
+        "loc": {
+            "lat": 49.86574619575057,
+            "lng": -97.20880687236786
+        },
+        "type": "4",
+        "text": "Tree Blocking Corydon"
+    }
+]
+}

@@ -1,8 +1,15 @@
  <!DOCTYPE html>
   <html>
 	<head>
+		<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-aVoI8ARmx0yQaU3OtEBpknRctill1SU">
+    </script>
+	  <!--Import jQuery before materialize.js-->
+	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
-
+      <script type="text/javascript" src="core.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css">
   
 	  <!--Let browser know website is optimized for mobile-->
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -20,7 +27,9 @@
 	}
 	span.badge.new:after{content:"";}
 
-
+	.card{
+	  overflow: visible;
+	}
 	p.textQuote::before{
 		content:'\25CF';	
 		padding-right: 10px
@@ -34,17 +43,27 @@
 	p.textQuote.issue3::before{
 		color: #ffa726;
 	}
+	p.textQuote.issue4::before{
+		color: #29B6F6;
+	}
+	p.textQuote.issue5::before{
+		color: #F44336;
+	}
 
 	.hideShowDiv{
 		display: none;
+	}
+
+	.dragOver.visable{
+		border-style: dashed;
+  		border-color: darkgray;
+  		height:50px
 	}
 
 </style>
 	</head>
 
 	<body>
-	  <!--Import jQuery before materialize.js-->
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
 
@@ -52,378 +71,56 @@
 
 <nav>
 	<div class="nav-wrapper blue lighten-1">
-	  <a href="#" class="brand-logo center">Combined</a>
+	  <a href="#" class="brand-logo center">Dashboard</a>
 	  <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/">Combined</a></li>
-        <li><a href="/single.html">Single</a></li>
 	  </ul>
 	</div>
   </nav>
 
+<div id="cardHolder">
 
 
-<div class="row issueCard">
+</div>
 
-		<div class="col m8 offset-m2">
-		  <div class="card">
-			  <div class="row" style="margin-bottom:0px;">
-			  	<div class="card-content">
-						<div class="col m2">
-							<img src="img/icon1.png" class="z-depth-1 	circle responsive-img" style="width: 100%; Max-height:70px;Max-width:70px"\>
-						</div>
-
-						<span class="col m6">
-							<span class="card-title black-text">Card Title</span><BR>
-							506 Waverley St, Winnipeg MB
-						</span>
-						<span class="col m2"> 
-							<span class="badge new" style="margin-top: 14px;">3</span>
-						</span>
-						<div class="col m2 offset-m0 ">
-							<a class="btn-floating" style="float: right;">
-								<i class="medium showHideButton mdi-navigation-expand-more"></i> 
-							</a>
-						</div>
-
-				  </div>
-				</div>
-			
-			  <div class="hideShowDiv ">
-			  	<div class="card-content">
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue3	">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<h5>Where is it?</h5>
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue3	">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>	
-					</div>
-
-
-				<img class="responsive-img" src="img/staticmap3.png">
-			  <div class="card-content">
-
-					<a class="btn-floating removeTicket green lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-					<a class="btn-floating removeTicket lime lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-					<a class="btn-floating removeTicket orange lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	</div>
-
-<div class="row issueCard">
-
-		<div class="col m8 offset-m2">
-		  <div class="card">
-			  <div class="row" style="margin-bottom:0px;">
-			  	<div class="card-content">
-						<div class="col m2">
-							<img src="img/icon2.png" class="z-depth-1 	circle responsive-img" style="width: 100%; Max-height:70px;Max-width:70px"\>
-						</div>
-
-						<span class="col m6">
-							<span class="card-title black-text">Card Title</span><BR>
-							506 Waverley St, Winnipeg MB
-						</span>
-						<span class="col m2"> 
-							<span class="badge new" style="margin-top: 14px;">2</span>
-						</span>
-						<div class="col m2 offset-m0 ">
-							<a class="btn-floating" style="float: right;">
-								<i class="medium showHideButton mdi-navigation-expand-more"></i> 
-							</a>
-						</div>
-
-				  </div>
-				</div>
-			
-			  <div class="hideShowDiv ">
-			  	<div class="card-content">
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<h5>Where is it?</h5>
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-					</div>
-
-
-				<img class="responsive-img" src="img/staticmap2.png" alt="Google Map of 49.899741, -97.138509">
-			  <div class="card-content">
-
-					<a class="btn-floating removeTicket green lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-					<a class="btn-floating removeTicket lime lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	</div>
-
-<div class="row issueCard">
-
-		<div class="col m8 offset-m2">
-		  <div class="card">
-			  <div class="row" style="margin-bottom:0px;">
-			  	<div class="card-content">
-						<div class="col m2">
-							<img src="img/icon1.png" class="z-depth-1 	circle responsive-img" style="width: 100%; Max-height:70px;Max-width:70px"\>
-						</div>
-
-						<span class="col m6">
-							<span class="card-title black-text">Card Title</span><BR>
-							506 Waverley St, Winnipeg MB
-						</span>
-						<span class="col m2"> 
-							<span class="badge new" style="margin-top: 14px;">3</span>
-						</span>
-						<div class="col m2 offset-m0 ">
-							<a class="btn-floating" style="float: right;">
-								<i class="medium showHideButton mdi-navigation-expand-more"></i> 
-							</a>
-						</div>
-
-				  </div>
-				</div>
-			
-			  <div class="hideShowDiv ">
-			  	<div class="card-content">
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue3	">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<h5>Where is it?</h5>
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue3	">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>	
-					</div>
-
-
-				<img class="responsive-img" src="img/staticmap3.png">
-			  <div class="card-content">
-
-					<a class="btn-floating removeTicket green lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-					<a class="btn-floating removeTicket lime lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-					<a class="btn-floating removeTicket orange lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	</div>
-
-<div class="row issueCard">
-
-		<div class="col m8 offset-m2">
-		  <div class="card">
-			  <div class="row" style="margin-bottom:0px;">
-			  	<div class="card-content">
-						<div class="col m2">
-							<img src="img/icon2.png" class="z-depth-1 	circle responsive-img" style="width: 100%; Max-height:70px;Max-width:70px"\>
-						</div>
-
-						<span class="col m6">
-							<span class="card-title black-text">Card Title</span><BR>
-							506 Waverley St, Winnipeg MB
-						</span>
-						<span class="col m2"> 
-							<span class="badge new" style="margin-top: 14px;">2</span>
-						</span>
-						<div class="col m2 offset-m0 ">
-							<a class="btn-floating" style="float: right;">
-								<i class="medium showHideButton mdi-navigation-expand-more"></i> 
-							</a>
-						</div>
-
-				  </div>
-				</div>
-			
-			  <div class="hideShowDiv ">
-			  	<div class="card-content">
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<h5>Where is it?</h5>
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-					</div>
-
-
-				<img class="responsive-img" src="img/staticmap2.png" alt="Google Map of 49.899741, -97.138509">
-			  <div class="card-content">
-
-					<a class="btn-floating removeTicket green lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-					<a class="btn-floating removeTicket lime lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	</div>
-
-<div class="row issueCard">
-
-		<div class="col m8 offset-m2">
-		  <div class="card">
-			  <div class="row" style="margin-bottom:0px;">
-			  	<div class="card-content">
-						<div class="col m2">
-							<img src="img/icon1.png" class="z-depth-1 	circle responsive-img" style="width: 100%; Max-height:70px;Max-width:70px"\>
-						</div>
-
-						<span class="col m6">
-							<span class="card-title black-text">Card Title</span><BR>
-							506 Waverley St, Winnipeg MB
-						</span>
-						<span class="col m2"> 
-							<span class="badge new" style="margin-top: 14px;">3</span>
-						</span>
-						<div class="col m2 offset-m0 ">
-							<a class="btn-floating" style="float: right;">
-								<i class="medium showHideButton mdi-navigation-expand-more"></i> 
-							</a>
-						</div>
-
-				  </div>
-				</div>
-			
-			  <div class="hideShowDiv ">
-			  	<div class="card-content">
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue3	">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<h5>Where is it?</h5>
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue3	">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>	
-					</div>
-
-
-				<img class="responsive-img" src="img/staticmap3.png">
-			  <div class="card-content">
-
-					<a class="btn-floating removeTicket green lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-					<a class="btn-floating removeTicket lime lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-					<a class="btn-floating removeTicket orange lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	</div>
-
-<div class="row issueCard">
-
-		<div class="col m8 offset-m2">
-		  <div class="card">
-			  <div class="row" style="margin-bottom:0px;">
-			  	<div class="card-content">
-						<div class="col m2">
-							<img src="img/icon2.png" class="z-depth-1 	circle responsive-img" style="width: 100%; Max-height:70px;Max-width:70px"\>
-						</div>
-
-						<span class="col m6">
-							<span class="card-title black-text">Card Title</span><BR>
-							506 Waverley St, Winnipeg MB
-						</span>
-						<span class="col m2"> 
-							<span class="badge new" style="margin-top: 14px;">2</span>
-						</span>
-						<div class="col m2 offset-m0 ">
-							<a class="btn-floating" style="float: right;">
-								<i class="medium showHideButton mdi-navigation-expand-more"></i> 
-							</a>
-						</div>
-
-				  </div>
-				</div>
-			
-			  <div class="hideShowDiv ">
-			  	<div class="card-content">
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<h5>Where is it?</h5>
-						<p class="textQuote issue1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-						<p class="textQuote issue2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis imperdiet felis sit amet hendrerit.</p>
-					</div>
-
-
-				<img class="responsive-img" src="img/staticmap2.png" alt="Google Map of 49.899741, -97.138509">
-			  <div class="card-content">
-
-					<a class="btn-floating removeTicket green lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-					<a class="btn-floating removeTicket lime lighten-1" >
-						<i class="mdi-hardware-keyboard-return"></i> 
-					</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	</div>
 
 
 <script type="text/javascript">
 
+$().ready(function(){
+	var url = getUrlParameter("t");
+	url = url.substring(0, url.length - 1);
 
-$(".showHideButton").click(function(event){
-	var button = $(event.target);
-	var card = button.closest('.issueCard');
-	var hideShowDiv = card.find(".hideShowDiv");
+	$.getJSON( "/data/" + url, function( data ) {
+		currData = data;
+		currData.values = shuffle(currData.values);
+		draw();
+	});
+});
 
-	var otherButtons = $(".showHideButton").not(button);
-	var otherCards = $(".issueCard").not(card);
-	var otherHideShowDivs = $(".hideShowDiv").not(hideShowDiv);
 
+function draw () {
+	var data=currData;
+	var cards = [];
+	$("#cardHolder").html("");
+	for (var i = 0; i < data.values.length; i++) {
+		if(data.type === "groups"){
+			var makeFrom = data.values[i];
+		}else{
+			var makeFrom = [data.values[i]];
+		}
+		
+		var currCard = buildCardForMulti(i,makeFrom,data.type === "groups")
+		$("#cardHolder").append(currCard);
+		cards.push(currCard);
+	};
+	if(typeof currOpen != 'undefined' )
+	{
+		$(document).scrollTop(cards[currOpen]);
+	}
 	
 
-	if(card.hasClass("expanded")){
-		$(".issueCard").removeClass("expanded");
-		$(".hideShowDiv").slideUp();
-		$(".showHideButton").removeClass("mdi-navigation-expand-less");
-		$(".showHideButton").addClass("mdi-navigation-expand-more");
-	}else{
-		otherCards.removeClass("expanded");
-		otherHideShowDivs.slideUp();
-		otherButtons.removeClass("mdi-navigation-expand-less");
-		otherButtons.addClass("mdi-navigation-expand-more");
+}
 
-
-
-		card.addClass("expanded");
-		hideShowDiv.slideDown();
-		button.removeClass("mdi-navigation-expand-more");
-		button.addClass("mdi-navigation-expand-less");	
-	}
-
-});
 
 
 
